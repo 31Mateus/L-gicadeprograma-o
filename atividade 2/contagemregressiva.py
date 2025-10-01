@@ -1,4 +1,4 @@
-from time import sleep
+import time
 def contagem_regressiva (n):
     for i in range(n,0,-1):
         print(i)

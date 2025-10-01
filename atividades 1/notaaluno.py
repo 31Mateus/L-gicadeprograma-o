@@ -1,6 +1,6 @@
 notas = []
 while True:
-    print("1 - adicione um nove aluno")
+    print("1 - adicione um novo aluno")
     print("2 - sair")
     opcao = input("Digite sua opção:")
     dicionario = {}

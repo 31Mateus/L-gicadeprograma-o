@@ -19,5 +19,3 @@ while True:
     else:
         print("Digite uma opção válida!")
 clienteAleatorio = random.choice(clientes)
-
-print(Parabéns {clienteAleatorio["nome"]} você foi sorteado!)
