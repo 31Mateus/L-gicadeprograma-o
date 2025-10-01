@@ -60,3 +60,9 @@ numeros = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15]
 multiplos_3_5 = list(filter(lambda x : x % 3 == 0 and x % 5 == 0 ,numeros))
 
 print(multiplos_3_5)
+
+print("="*30)
+
+numeros = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15]
+total = reduce(lambda acumulador,n : acumulador + n,numeros,0)
+print(total)
